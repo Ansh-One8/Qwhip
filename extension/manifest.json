@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "qwhip",
+  "version": "0.2.0",
+  "description": "Attaches screenshots from the qwhip desktop app to your AI chat (Claude, ChatGPT, Gemini, DeepSeek).",
+  "host_permissions": ["http://127.0.0.1:47831/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*",
+        "https://chatgpt.com/*",
+        "https://gemini.google.com/*",
+        "https://chat.deepseek.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+}

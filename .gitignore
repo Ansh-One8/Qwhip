@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Build output (share these through GitHub Releases, not the repo)
+dist/
+build/
+release/
+
+# Local test screenshots
+test_captures/

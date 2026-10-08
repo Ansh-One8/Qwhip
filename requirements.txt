@@ -1,0 +1,3 @@
+PySide6==6.12.0
+mcp==2.3.0
+pyinstaller==6.22.3  # only needed to build the .exe (python build.py)
