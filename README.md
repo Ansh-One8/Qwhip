@@ -9,11 +9,15 @@ Capture several screenshots, add a one-line note to each, and send them all to C
 
 <p align="center">
   <a href="../../releases/latest"><b>⬇ Download for Windows</b></a>
+  &nbsp;·&nbsp;
+  <a href="LICENSE">MIT License</a>
+</p>
+
+<p align="center">
+  <img src="docs/demo.gif" width="760" alt="qwhip demo: capture a screenshot, add a note, send it to Claude">
 </p>
 
 ---
-
-<!-- Add a short demo GIF here: capture → note → Send. It's the best way to show what qwhip does. -->
 
 ## Why
 
@@ -162,4 +166,4 @@ Issues and pull requests are welcome. If something doesn't work on your setup, p
 
 ## License
 
-<!-- Choose a license (e.g. MIT) and add a LICENSE file. -->
+[MIT](LICENSE): free to use, modify and share, including commercially. Just keep the copyright notice.
